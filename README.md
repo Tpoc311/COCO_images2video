@@ -51,3 +51,10 @@ python make_video_coco.py \
   --classes_list person car dog \
   --colors_list red blue green
 ```
+
+Замечания
+
+* порядок classes_list и colors_list должен совпадать
+* все классы из аннотаций должны быть перечислены в classes_list
+* для каждого класса должен быть указан цвет из списка доступных
+* скрипт рассчитан на стандартную COCO-разметку
