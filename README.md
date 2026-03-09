@@ -31,6 +31,19 @@ pip install opencv-python numpy pycocotools
 * --classes_list — список классов из аннотаций
 * --colors_list — список цветов для классов в том же порядке
 
+Доступные цвета: 
+
+* blue
+* green
+* red
+* turquoise
+* white
+* yellow
+* purple
+* orange
+* brown
+* black
+
 ```
 python make_video_coco.py \
   --folder_path ./dataset \
