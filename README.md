@@ -25,6 +25,12 @@ pip install opencv-python numpy pycocotools
 
 ### Использование:
 
+Аргументы:
+* --folder_path — путь к папке с изображениями и папкой lbl
+* --fps — FPS выходного видео (по умолчанию: 25)
+* --classes_list — список классов из аннотаций
+* --colors_list — список цветов для классов в том же порядке
+
 ```
 python make_video_coco.py \
   --folder_path ./dataset \
